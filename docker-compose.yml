@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  # Servicio para SonarQube
+  sonarqube:
+    image: sonarqube:latest
+    container_name: sonarqube
+    ports:
+      - "9000:9000"
